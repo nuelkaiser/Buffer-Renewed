@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.illustrate3 {
+    background: #F3F5FE;
+    padding: 80px 60px 0px 60px;
+}
+
+.illustrate3 img {
+    width: 410px;
+    margin-top: 79px;
+}
+
+.illustrate3 h2 {
+    color: #00003B;
+    font-family: 'Br Cobane Bold';
+}
+
+.illustrate3 p {
+    margin: 10px 0px 20px 0px;
+    font-family: 'Br Cobane';
+}
+
+@media (max-width: 1024px) {
+    .illustrate3 img {
+        width: 16rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .illustrate3 {
+        padding: 80px 30px 0px 30px;
+    }
+
+    .illustrate3 img {
+        width: 12rem;
+    }
+}

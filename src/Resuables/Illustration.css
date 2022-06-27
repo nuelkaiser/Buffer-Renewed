@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.illustrate {
+    background: #FFE4F3;
+    padding: 80px 60px 0px 60px;
+}
+
+.illustrate h2 {
+    color: #00003B;
+    font-family: 'Br Cobane Bold';
+}
+
+.illustrate p {
+    margin: 10px 0px 20px 0px;
+    font-family: 'Br Cobane';
+}
+
+@media (max-width: 1024px) {
+    .illustrate img {
+        width: 16rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .illustrate {
+        padding: 80px 30px 0px 30px;
+    }
+
+    .illustrate img {
+        width: 12rem;
+    }
+}

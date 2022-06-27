@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Br Cobane';
+    src: url('../Fonts//BRCobane-Regular.otf');
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    padding: 15px 100px;
+    font-family: 'Br Cobane';
+}
+
+.nav-list-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3em;
+}
+
+.nav-list-container li {
+    list-style: none;
+    font-weight: 200;
+    color: #9A9EA6;
+}
+
+@media (max-width: 1024px) {
+    .nav-container {
+        padding: 15px 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        padding: 15px 45px;
+    }
+}
+
+@media (max-width: 425px) {
+    .nav-list-container li {
+        display: none;
+    }
+
+    .nav-container {
+        padding: 15px 25px;
+    }
+}
+
+
+@media (max-width: 280px) {
+    .nav-container svg {
+        width: 5em;
+    }
+}

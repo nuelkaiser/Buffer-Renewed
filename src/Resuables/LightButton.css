@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.white-button {
+    padding: 15px 20px;
+    border-radius: 7px;
+    color: #1A4BF4;
+    background: #FFF;
+    cursor: pointer;
+    margin: 0px 90px;
+}
+
+@media (max-width: 375px) {
+    .white-button {
+        padding: 15px 19px;
+    }
+}
+
+@media (max-width: 320px) {
+    .white-button {
+        padding: 15px 15px;
+    }
+}
+
+@media (max-width: 280px) {
+    .white-button {
+        margin: 0px 40px;
+    }
+}

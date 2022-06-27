@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 15px 30px;
+    border-radius: 7px;
+    background: #1A4BF4;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+.alt-button {
+    padding: 15px 30px;
+    margin-top: 23px;
+    border-radius: 7px;
+    background: #1A4BF4;
+    color: #FFF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    font-family: 'Br Cobane';
+}
+
+@media (max-width: 1024px) {
+    .alt-button {
+        width: 38%;
+    }
+}
+
+@media (max-width: 768px) {
+    .alt-button {
+        width: 53%;
+    }
+}
+
+@media (max-width: 425px) {
+    .alt-button {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .button {
+        font-size: 12px;
+        padding: 15px 24px;
+    }
+
+}
+
