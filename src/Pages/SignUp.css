@@ -112,6 +112,7 @@ form button {
     background: #1A4BF4;
     color: #FFF;
     border: none;
+    cursor: pointer;
 }
 
 @media (max-width: 1024px) {
