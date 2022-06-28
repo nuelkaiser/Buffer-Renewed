@@ -446,3 +446,14 @@
         font-size: 10px;
     }
 }
+
+/*MEDIA QUERIES FOR LARGER SCREEN SIZES*/
+@media (min-width: 1600px) {
+    .illustrations {
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .illustration-container {
+        width: 80%;
+    }
+}

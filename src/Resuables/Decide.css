@@ -92,3 +92,10 @@
         font-size: 18px;
     }
 }
+
+/* MEDIA QUERIES FOR LARGER SCREEN SIZES */
+@media (min-width: 1600px) {
+    .decide-card img {
+        width: 27em;
+    }
+}

@@ -43,7 +43,7 @@ const Footer = () => {
                     </ul>
 
                     <ul className='asf-inner'  data-aos='fade-up' data-aos-duration='1500'>
-                        <h3>Supprt</h3>
+                        <h3>Support</h3>
                         <li>Contact Us</li>
                         <li>Online Chat</li>
                         <li>Whatsapp</li>
@@ -55,7 +55,7 @@ const Footer = () => {
                         <h3>FAQ</h3>
                         <li>Account</li>
                         <li>Manage Deliveries</li>
-                        <li>Ordrs</li>
+                        <li>Orders</li>
                         <li>Payments</li>
                         <li>Returns</li>
                     </ul>

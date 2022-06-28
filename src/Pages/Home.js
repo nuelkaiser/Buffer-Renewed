@@ -93,7 +93,7 @@ const Home = () => {
                         words={`Make your pensions work for you with our range of investment profiles`}
                         image={Curve} />
 
-                    <Decide heading={`Mange from your phone`}
+                    <Decide heading={`Manage from your phone`}
                         words={`Manage your pension account with confidence.`}
                         image={Mobile} />
                 </div>

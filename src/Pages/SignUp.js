@@ -2,26 +2,15 @@ import React from 'react';
 import './SignUp.css';
 import Final from '../Images/final-burry.png';
 import Footer from '../Resuables/Footer';
-import { useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Form from '../Resuables/Form';
 
 AOS.init();
 
 
 const SignUp = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-
-  const submit = (e) => {
-    e.preventDefault();
-
-    console.log(name)
-    console.log(email)
-
-    setName('');
-    setEmail('');
-  }
+ 
 
 
   return (
@@ -49,15 +38,7 @@ const SignUp = () => {
               <p>Join the waitlist and we'll contact you for access</p>
           </div>
 
-            <form onSubmit={submit}>
-              <label>Full Name</label>
-              <input type='text' name='name' placeholder='Enter your Full name' value={name} onChange={(e) => {setName(e.target.value)}} />
-
-              <label>Email Address</label>
-              <input  type='email' name='email' placeholder='Enter your Email Address' value={email} onChange={(e) => {setEmail(e.target.value)}}/>
-
-              <button>Submit</button>
-            </form>
+          <Form />
         </div>
 
         <Footer />
