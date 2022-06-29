@@ -33,6 +33,7 @@
     list-style: none;
     font-weight: 200;
     color: #9A9EA6;
+    cursor: pointer;
 }
 
 @media (max-width: 1024px) {

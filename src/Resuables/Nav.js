@@ -10,9 +10,11 @@ const Nav = () => {
             <Logo />
 
             <ul className='nav-list-container'>
-                <li>
-                    Home
-                </li>
+                <Link to='/' className='link'>
+                    <li>
+                        Home
+                    </li>
+                </Link>
 
                 <li>
                     Services
