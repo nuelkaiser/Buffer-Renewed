@@ -141,13 +141,15 @@
 
 }
 
-.decide-container h1 {
+.decide-container h2 {
     color: #00003B;
     font-family: 'Br Cobane Bold';
+    padding-bottom: 50px;
+    font-size: 20px;
 }
 
 .decide-container p {
-    font-family: 'Br Cobane Bold';
+    font-family: 'Br Cobane';
 }
 
 .decision-option-container {

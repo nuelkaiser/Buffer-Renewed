@@ -4,12 +4,19 @@
     box-sizing: border-box;
 }
 
+
+@font-face {
+    font-family: 'Br Cobane Bold';
+    src: url('../Fonts//BRCobane-Bold.otf');
+}
+
+
 .decide-card {
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
-    box-shadow: 2px 10px 5px 0px rgba(165, 165, 165, 0.75);
-    -webkit-box-shadow: 2px 10px 5px 0px rgba(165, 165, 165, 0.75);
-    -moz-box-shadow: 2px 10px 5px 0px rgba(165, 165, 165, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(165,165,165,0.19);
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(165,165,165,0.19);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(165,165,165,0.19);
 }
 
 .decide-card img {
@@ -21,14 +28,6 @@
 
 .decide-card-inner {
     padding: 30px 20px 40px 20px;
-}
-
-
-.decide-card-inner h2 {
-    padding-bottom: 30px;
-    color: #00003B;
-    font-size: 20px;
-    font-family: 'Br Cobane';
 }
 
 .decide-card-inner p {
