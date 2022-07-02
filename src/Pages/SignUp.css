@@ -115,6 +115,24 @@ form button {
     cursor: pointer;
 }
 
+.success,
+.error,
+.sending {
+    margin-top: 12px;
+}
+
+.success {
+    color: chartreuse;
+}
+
+.error {
+    color: crimson;
+}
+
+.sending {
+    color: #1A4BF4;
+}
+
 @media (max-width: 1024px) {
     .join,
     form {

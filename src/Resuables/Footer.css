@@ -44,6 +44,12 @@
     margin-bottom: 12px;
 }
 
+.buffer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .buffer svg {
     margin-bottom: 12px;
 }
@@ -59,10 +65,10 @@
     cursor: pointer;
 }
 
+
 .media-reach {
     margin-top: 22px;
     display: flex;
-    align-self: center;
     gap: 7px;
 }
 

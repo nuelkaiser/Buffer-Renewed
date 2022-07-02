@@ -5,12 +5,14 @@ import Footer from '../Resuables/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Form from '../Resuables/Form';
+import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 AOS.init();
 
 
 const SignUp = () => {
  
+  const url = `https://gmail.us14.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`
 
 
   return (
@@ -38,7 +40,16 @@ const SignUp = () => {
               <p>Join the waitlist and we'll contact you for access</p>
           </div>
 
-          <Form />
+          <MailchimpSubscribe
+                url={url}
+                render={({ subscribe, status, message }) => (
+                    <Form
+                        status={status} 
+                        message={message}
+                        onValidated={formData => subscribe(formData)}
+                    />
+                )}
+            />
         </div>
 
         <Footer />

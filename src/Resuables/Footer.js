@@ -7,22 +7,28 @@ import Ball from '../Images/ball.png';
 import Figma from '../Images/figma.png';
 import Whatsapp from '../Images/whatsapp.png';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
+import Readmore from './Readmore';
 
 AOS.init();
 
 const Footer = () => {
+
+
     return (
         <div className='footer-container'>
             <div className='footer-info'>
-                <div className='buffer'   data-aos='fade-up' data-aos-duration='2000'>
+                <div className='buffer' data-aos='fade-up' data-aos-duration='2000'>
                     <Logo />
 
-                    <p>
-                        We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat... <span>Read More</span>
-                    </p>
+                    <Readmore>
+                            Buffer Africa is a financial services comapany that uses technology to meet the demands of it's consumers.
+                            We are on a quest to strengthen Africa's financial safety net (pension, insurance and credit).
+                            We have noticed a significant disconnect
+                            between traditional pension companies' products and the needs of thier consumers.
+                            We are starting to fill in the gap by developing solutions that meet are customers' needs.
+                            Remote workers in Africa for example, do not have access to pension funds. For these customer sectors. we will develop targeted solutions.
+                    </Readmore>
 
                     <div className='media-reach'>
                         <img src={Facebook} alt='facebook' />
@@ -33,7 +39,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='asf' >
-                    <ul className='asf-inner'  data-aos='fade-up' data-aos-duration='2000'>
+                    <ul className='asf-inner' data-aos='fade-up' data-aos-duration='2000'>
                         <h3>About</h3>
                         <li>About us</li>
                         <li>Blog</li>
@@ -42,7 +48,7 @@ const Footer = () => {
                         <li>In Press</li>
                     </ul>
 
-                    <ul className='asf-inner'  data-aos='fade-up' data-aos-duration='1500'>
+                    <ul className='asf-inner' data-aos='fade-up' data-aos-duration='1500'>
                         <h3>Support</h3>
                         <li>Contact Us</li>
                         <li>Online Chat</li>
@@ -51,7 +57,7 @@ const Footer = () => {
                         <li>Ticketing</li>
                     </ul>
 
-                    <ul className='asf-inner'  data-aos='fade-up' data-aos-duration='1000'>
+                    <ul className='asf-inner' data-aos='fade-up' data-aos-duration='1000'>
                         <h3>FAQ</h3>
                         <li>Account</li>
                         <li>Manage Deliveries</li>

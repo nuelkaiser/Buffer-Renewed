@@ -2,20 +2,33 @@ import React from 'react';
 import { useState } from 'react';
 import '../Pages/SignUp.css';
 
-const Form = () => {
+
+const Form = ({ status, message, onValidated }) => {
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
+
+  
+
   
     const submit = (e) => {
       e.preventDefault();
+
+      email &&
+      name &&
+      email.indexOf("@") > -1 &&
+      onValidated({
+          EMAIL: email,
+          MERGE1: name,
+      });
   
-      console.log(name)
-      console.log(email)
+   
   
       setName('');
       setEmail('');
     }
+
+   
 
     return (
         <form onSubmit={submit}>
@@ -26,6 +39,25 @@ const Form = () => {
             <input type='email' name='email' placeholder='Enter your Email Address' value={email} onChange={(e) => { setEmail(e.target.value) }} />
 
             <button>Submit</button>
+
+            
+        {status === "sending" && 
+          <div className='sending'>
+            sending...
+          </div>
+        }
+        {status === "error" && (
+          <div 
+          className='error'
+            dangerouslySetInnerHTML={{ __html: message }}
+          />
+        )}
+        {status === "success" && (
+          <div
+            className='success'
+            dangerouslySetInnerHTML={{ __html: message }}
+          />
+        )}
         </form>
     )
 }
