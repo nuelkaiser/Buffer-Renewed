@@ -10,11 +10,8 @@ import OrangeBurry from '../Images/orange-burry.png';
 import OrangeBurry2 from '../Images/orange-burry2.png';
 import Balance from '../Images/Balance.png';
 import Earning from '../Images/Earning Source.png';
-import Uber from '../Images/Uber';
-import Slack from '../Images/Slack';
-import Netflix from '../Images/Netflix';
-import Google from '../Images/Google';
-import AirBnb from '../Images/AirBnb';
+import Microsoft from '../Images/microsoft.png';
+import Tangerine from '../Images/Tangerine';
 import { Decide } from '../Resuables/Decide';
 import Get from '../Images/Get-the-money.png';
 import Curve from '../Images/The-curve.png';
@@ -66,11 +63,8 @@ const Home = () => {
                 <h2 data-aos='zoom-in-down' >Trusted by your favourite businesses</h2>
 
                 <div className='sponsors' data-aos='zoom-in-up' data-aos-duration='500'>
-                    <Slack />
-                    <Netflix />
-                    <Google />
-                    <AirBnb />
-                    <Uber />
+                   <Tangerine />
+                   <img src={Microsoft} alt='Microsoft'/>
                 </div>
             </div>
 
