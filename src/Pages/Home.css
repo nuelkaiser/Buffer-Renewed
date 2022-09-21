@@ -229,6 +229,10 @@
     padding-bottom: 18px;
 }
 
+.microsoft {
+    width: 12vw;
+}
+
 @media (max-width: 1024px) {
 
     .image-container {
@@ -271,6 +275,7 @@
     .orange {
         right: 60px;
     }
+
   
 }
 
@@ -313,6 +318,10 @@
     .card-2 {
         width: 200px;
         right: 260px;
+    }
+
+    .microsoft {
+        width: 17vw;
     }
 }
 
@@ -380,6 +389,11 @@
 
     .card-2 {
         right: 186px;
+    }
+
+
+    .microsoft {
+        width: 35vw;
     }
 
 }

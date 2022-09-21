@@ -64,7 +64,7 @@ const Home = () => {
 
                 <div className='sponsors' data-aos='zoom-in-up' data-aos-duration='500'>
                    <Tangerine />
-                   <img src={Microsoft} alt='Microsoft'/>
+                   <img className='microsoft' src={Microsoft} alt='Microsoft'/>
                 </div>
             </div>
 
